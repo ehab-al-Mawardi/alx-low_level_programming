@@ -20,14 +20,14 @@ int main(void)
 		character++;
 	}
 
+	putchar('\n');
+
 	/* Characters Capital */
 	while (character <= 'Z')
 	{
 		putchar(CHARACTER);
 		CHARACTER++;
-
 	}
-	putchar('\n');
 
 	return (0);
 }
