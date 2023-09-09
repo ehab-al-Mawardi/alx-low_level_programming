@@ -13,19 +13,20 @@ int main(void)
 	char character = 'a';
 	char CHARACTER = 'A';
 
+	/* characters small */
 	while (character <= 'z')
 	{
 		putchar(character);
 		character++;
 	}
-	putchar('\n');
 
+	/* Characters Capital */
 	while (character <= 'Z')
 	{
 		putchar(CHARACTER);
 		CHARACTER++;
 
 	}
-
+	putchar('\n');
 	return (0);
 }
