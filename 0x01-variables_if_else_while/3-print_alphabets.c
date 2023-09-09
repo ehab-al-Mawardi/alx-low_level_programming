@@ -23,7 +23,7 @@ int main(void)
 	putchar('\n');
 
 	/* Characters Capital */
-	while (character <= 'Z')
+	while (CHARACTER <= 'Z')
 	{
 		putchar(CHARACTER);
 		CHARACTER++;
