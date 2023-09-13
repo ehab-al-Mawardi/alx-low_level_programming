@@ -8,7 +8,7 @@
 * Return: Always 0 (Success)
 */
 
-int main(void)
+int main(voidi)
 {
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
@@ -27,4 +27,3 @@ int main(void)
 			printf(", ");
 	return (0);
 }
-
