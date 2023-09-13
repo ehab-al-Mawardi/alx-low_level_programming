@@ -13,13 +13,13 @@ int main(void)
 	unsigned int fib1 = 1, fib2 = 2, sum;
 	int count;
 
-		printf("%u, %u", fib1, fib2);
+		printf("%llu, %llu", fib1, fib2);
 
 		for (count = 3; count <= 98; count++)
 		{
 			sum = fib1 + fib2;
 
-			printf(", %u", sum);
+			printf(", %llu", sum);
 
 			fib1 = fib2;
 			fib2 = sum;
