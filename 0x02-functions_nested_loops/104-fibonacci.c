@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	unsigned int fib1 = 1, fib2 = 2, sum;
+	unsigned long long fib1 = 0, fib2 = 1, sum;
 	int count;
 
 		printf("%llu, %llu", fib1, fib2);
 
-		for (count = 3; count <= 98; count++)
+		for (count = 3; count <= 100; count++)
 		{
 			sum = fib1 + fib2;
 
