@@ -10,21 +10,22 @@
 
 int main(void)
 {
-	int x = 1, y = 2, sum = 0, prev;
+	unsigned int fib1 = 1, fib2 = 2, sum;
+	int count;
 
-	while (x <= 4000000)
-	{
-		if (x % 2 == 0)
-	{
-		sum += x;
-	}
+		printf("%u, %u", fib1, fib2);
 
-		prev = y;
-		y = x + y;
-		x = prev;
-	}
+		for (count = 3; count <= 98; count++)
+		{
+			sum = fib1 + fib2;
 
-	printf("Sum of even-valued terms: %d\n", sum);
+			printf(", %u", sum);
+
+			fib1 = fib2;
+			fib2 = sum;
+		}
+
+			printf("\n");
 
 	return (0);
 }
