@@ -17,10 +17,12 @@ int main(void)
 	{
 		sum = fib1 + fib2;
 		printf("%lu", sum);
+		printf(", ");
 
 		fib1 = fib2;
 		fib2 = sum;
 	}
 		printf("%lu\n", fib1 + fib2);
+		printf(", ");
 	return (0);
 }
