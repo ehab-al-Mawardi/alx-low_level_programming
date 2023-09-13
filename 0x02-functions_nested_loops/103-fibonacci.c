@@ -10,18 +10,20 @@
 
 int main(void)
 {
-	int x, y;
-	int sum, prev;
+	unsigned long fib1 = 0, fib2 = 1, sum;
+	float total_sum;
 
-	x = 1;
-
-	y = 2;
-
-	while (x + y <= 100)
+	while (1)
 	{
-		sum = x + y
-		prev = sum + y
+		sum = fib1 + fib2;
+		if (sum > 4000000)
+
+		if ((sum % 2) == 0)
+			total_sum += sum;
+		fib1 = fib2;
+		fib2 = sum;
 	}
-	printf("\n");
+	printf("%lu\n", total_sum);
+
 	return (0);
 }
