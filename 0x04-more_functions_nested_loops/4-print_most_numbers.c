@@ -7,14 +7,14 @@ include "main.h"
 
 void print_most_numbers(void)
 {
-	int number;
+	int num;
 
-	for (number = 0; number < 9; number++)
+	for (num = 0; num < 9; num++)
 	{
-		if (number == 2 || number == 4)
+		if (num == 2 || num == 4)
 			continue;
 
-			_putchar(number + 48);
+		_putchar(num + 48);
 
 	}
 
