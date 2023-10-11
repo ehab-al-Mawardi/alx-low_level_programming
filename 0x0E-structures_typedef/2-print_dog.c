@@ -2,11 +2,8 @@
 #include <stdio.h>
 
 /**
- * init_dog - initializes a dog
- * @d: the dog to init
- * @name: the dog's name
- * @age: dog's age
- * @owner: owner's name
+ * print_dog - prints a dog
+ * @d: the dog to print
  *
  * Return: void.
  */
