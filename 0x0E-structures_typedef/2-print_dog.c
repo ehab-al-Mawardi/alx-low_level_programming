@@ -1,8 +1,12 @@
-iinclude "dog.h"
+#include "dog.h"
+#include <stdio.h>
 
 /**
- * print_dog - prints a dog
+ * init_dog - initializes a dog
  * @d: the dog to init
+ * @name: the dog's name
+ * @age: dog's age
+ * @owner: owner's name
  *
  * Return: void.
  */
